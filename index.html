@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="html"href="product.html">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Zhopo(e-commerce)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href=""/>
+    
+</head>
+<body>
+    <!--Header-one-->
+    <div class="container-fluid top-bar">
+        <ul class="nav"style>
+            <li class="nav-item">
+                <a class="nav-link text-white ms-3" href="account.html">Account</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link text-white" href="settings.html">Settings</a>
+            </li>
+        </ul>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="signin.html">Sign in</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="signup.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Log out</a>
+            </li>
+        </ul>
+    </div>
+    
+
+    <!--Header-Two-->
+    <div class="container-fluid second-bar">
+        <div><h1 class=" zhopo ms-4 ">ZHOPO</h1></div>
+        <div class="form">
+            <i class="bi bi-search"></i>
+            <input type="text" class="rounded search" placeholder="Search">
+        </div>
+        <div>
+            <ul class="nav head ">
+            <li class="nav-item">
+                <a class="nav-link fw-bold" href="wishlist.html">Wishlist</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  fw-bold" href="cart.html">Cart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  fw-bold" href="transaction.html">Transaction</a>
+            </li>
+        </ul>
+        </div>   
+    </div>
+  
+    <!--main-header-->
+    <div class="container-fluid bg">
+        <div>
+            <a href="category.html"><button class="but ps-4 pe-4 ms-4">Categories</button></a>
+        </div>
+        <div>
+            <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white " href="product.html">PRODUCT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white " href="#">BLOG</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link text-white " href="#">ORDER HISTORY</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link text-white " href="#">ORDER TRACKING</a>
+            </li>
+        </ul>
+         </div>
+        <div>
+             <div>
+               <a href="notification.html"><button class="but ps-4 pe-4 me-4">Notification</button></a>
+             </div>
+        </div>
+    </div>
+    
+    <!-- Mobile view-search-->
+     <div class="mobile-view mb-4">
+        <div class="menu-icons ms-3"data-bs-toggle="offcanvas"data-bs-target="#demo"style="font-size:30px;color:white">
+            <i class="bi bi-list"></i>
+        </div>
+        <div class="form">
+            <input type="text" class="rounded search-bar  pe-5" placeholder="Search">
+        </div>
+        <div class="bell mt-2 ms-2 me-4"style="font-size:20px"><a href="notification.html"style="color:black"><i class="bi bi-bell"></i></a></div>
+     </div>
+
+     <div class="offcanvas offcanvas-start" id="demo">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+           <a href="product.html"style="text-decoration:none;color:black"><p>Product</p></a> 
+            <a href="category.html"style="text-decoration:none;color:black"><p>Categories</p></a>
+            <p style="color: black;">Blog</p>
+            <p style="color: black;">Order history</p>
+            <p style="color: black;">Tracking Order</p>
+            <a href="settings.html"style="text-decoration:none;color:black"><p>Settings</p></a>
+           <a href="signin.html"style="text-decoration:none;color:black"> <p>Sign in</p></a>
+            <a href="signup.html"style="text-decoration:none;color:black"><p>Sign Up</p></a>
+            <p>Log Out</p>
+
+        </div>
+    </div>
+
+    
+
+
+    <div class="container car">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+       <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button"  data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+  
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="images/1.jpeg" alt="sale" class="d-block  rounded" style="width:100%">
+            </div>
+            <div class="carousel-item">
+               <img src="images/2.jpeg" alt="sale" class="d-block  rounded" style="width:100%">
+            </div>
+            <div class="carousel-item">
+               <img src="images/1770463660533.jpg (1).jpeg" alt="sale" class="d-block  rounded" style="width:100%">
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <!--mobile-view-carousel-->
+    <div class="mobile-image">
+        <img src="images/mobile-image.jpeg" alt="image">
+    </div>
+    
+    
+    <div>
+        <div class="container fw-bold cat">
+            <span class="margin">Categories</span>
+           <a href="category.html"style="text-decoration:none;color:chocolate"><span class="margin">View all</span></a>
+        </div>
+        <div class="gaps">
+            <span class="circle"><i class="bi bi-bag-heart-fill"></i></span>
+            <span class="circle"><i class="bi bi-fork-knife"></i></span>
+           <span class="circle"><i class="bi bi-ev-front-fill"></i></span> 
+           <span class="circle"><i class="bi bi-camera-fill"></i></span>
+           <span class="circle"><i class="bi bi-plugin"></i></span>
+           <span class="circle"><i class="fa-solid fa-basketball"></i></span>
+           <span class="circle"><i class="fa-solid fa-tv"></i></span>
+           <span class="circle"><i class="bi bi-plus-circle-fill"></i></span>
+        </div>
+    </div>
+   
+
+    <!--mobile-view-category-->
+    <div class="bar">
+        <div class="containe-fluid  cloth">
+            <div >
+                <div class="promo">Promo</div>
+                <div class="promo-text"><display-5 class="text-white ms-4"> 
+                    Enjoy 10% off your first order<br>
+                    with code: WELCOME10. 
+                    <br>Happy shopping! <br>
+                    Stay ahead of the trend <br>and explore our latest products.</display-5></div>
+                    <button class="shop mt-5 ms-4">View All</button>
+            </div>
+            <div class="card">
+                    <img src="images/sweater.jpeg" alt="sweater"style="width: 250px;height: 300px;">
+                    <div class="card-body">
+                        <div class="card-text">Original Sweater with 100% wool fabric</div>
+                        <div class="card-text text-danger">$10.00</div>
+                    </div>
+            </div>
+            <div class="card">
+                    <img src="images/shoe.jpeg" alt="sweater" style="width: 250px;height: 300px;">
+                    <div class="card-body">
+                        <div class="card-text">Modern Stylish Shoe for both Men and Women</div>
+                        <div class="card-text text-danger">$22.00</div>
+                    </div>
+            </div>
+            <div class="card">
+                    <img src="images/shirt.jpeg" alt="sweater" style="width: 250px;height: 300px;" >
+                    <div class="card-body">
+                        <div class="card-text">Casual Dress Shirt Women Long Office Wear</div>
+                        <div class="card-text text-danger">$19.00</div>
+                    </div>
+            </div>
+        </div>
+    </div><br>
+    <br>
+
+    <div class="container d-flex justify-content-between fw-bold cat">
+           <span>Products</span>
+            <a href="product.html"style="text-decoration:none;color:chocolate"><span>View all</span></a>
+        </div>
+
+    <div class="container last "> 
+      <div class="card">
+                 <img src="images/black-jacket.jpeg" alt="sweater"  class="p-2">
+                 <div class="card-body">
+                    <div class="card-text">Casual Black Jacket for Women or Men</div><br>
+                    <div class="card-text text-danger">$50.00</div>
+                 </div>
+        </div>
+        <div class="card">
+                 <img src="images/Student-Backpack.jpeg" alt="sweater" class="p-2">
+                 <div class="card-body">
+                    <div class="card-text">Limited Edition Student Backpack for Girls</div><br>
+                    <div class="card-text text-danger">$41.00</div>
+                 </div>
+        </div>
+        <div class="card">
+                 <img src="images/red-shirt.jpeg" alt="sweater"  class="p-2">
+                 <div class="card-body">
+                    <div class="card-text">Casual Dress Shirt for Men With Long Sleeves</div><br>
+                    <div class="card-text text-danger">$30.00</div>
+                 </div>
+        </div>
+        <div class="card">
+                 <img src="images/Gloves.jpeg" alt="sweater" class="p-2">
+                 <div class="card-body">
+                    <div class="card-text">Anti-hot Motorcycle Gloves Black.Import</div><br>
+                    <div class="card-text text-danger">$22.00</div>
+                 </div>
+        </div>
+    </div><br>
+
+   <!--mobile-view-fixed-->
+    <div class="fixed">
+        <a href="index.html"style="text-decoration:none;color:black"><span>Home</span></a>
+        <a href="wishlist.html"style="text-decoration:none;color:black"><span>Wishlist</span></a>
+        <a href="cart.html"style="text-decoration:none;color:black"><span>Cart</span></a>
+        <a href="transaction.html"style="text-decoration:none;color:black"><span>Transaction</span></a>
+        <a href="account.html"style="text-decoration:none;color:black"><span>Account</span></a>
+    </div>
+
+    <div class="footer text-center pt-5 text-white">
+        <h5>FAQ</h5>
+        <h5>RETURNS</h5>
+        <h5>SHIPPING</h5>
+        <h5>CONTACT</h5>
+        <h5>STORE FINDER</h5><br>
+        <span>Follow Us</span><br>
+        <div class="social">
+        <span><i class="bi bi-facebook"></i></span>
+        <span><i class="bi bi-instagram"></i></span>
+        <span><i class="bi bi-whatsapp"></i></span>
+         <span><i class="bi bi-twitter"></i></span>
+         <span><i class="bi bi-youtube"></i></span>
+        </div><br>
+        <h5>Site By Zhopo Agency</h5><br>
+         <h5>CopyRight 2025 @Zhopo All rights reserved.</h5><br>
+         <h5>Terms and Conditions | Privacy | Legal Notice</h5>
+
+    </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>  
+</body>
+</html>
